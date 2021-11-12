@@ -1,0 +1,151 @@
+/*
+ start main
+*/
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+body {
+  font-family: Arial;
+  padding: 11px;
+  background: #f1f1f1;
+}
+  /*
+   end main
+  */
+  
+
+/*
+start header
+*/
+.head{
+  background-color: white;
+}
+.head header{
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding : 30px ;
+  
+}
+
+.head p{
+    margin-top: 10px;
+text-align: center;
+padding: 20px;
+font-size: 1.2em;
+}
+
+
+/*
+end header
+*/
+  
+/*
+strat navbar
+*/
+
+nav{
+    overflow: hidden; /* to now or recognize divs inside navbar*/
+    z-index: 100;
+    background:#333;
+    border:1px solid #333 ;
+    width: 100%;
+    }
+     .container nav .Right a{
+    float:right;
+    padding:20px ;
+    text-decoration: none;
+    color: white;
+    }
+     .container nav .links a{
+        text-decoration: none;
+        float: left; 
+        padding: 16px 17px ; 
+        color:white;
+        display: block;
+       }
+    /*
+    end navbar
+    */
+
+    /*
+    start Right-container
+    */
+.Right-container{
+  float: left;
+  width: 27%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.left-container{
+  float: left;
+  width: 73%;
+
+}
+
+.div{
+  background-color: white;
+  padding: 23px;
+  margin-top: 22px;
+}
+.div h2,h3{
+  padding: 20px;
+}
+.dd{
+  padding: 20px;
+}
+.div1{
+  background-color: white;
+  padding: 23px;
+  margin-top: 22px;
+  height: 550px; 
+}
+.div1 h6,.ss{
+ padding:20px; 
+}
+
+.img{
+  background-color: #aaa;
+ width: 100%px;
+ height: 65%;
+ padding: 20px;
+}
+.img p{
+  padding: 20px;
+}
+.Footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+.all:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 800px) {
+  .left-container, .right-container {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav links a {
+    float: none;
+    width: 100%;
+  }
+}
